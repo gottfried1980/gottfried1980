@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ManagementPack
+    SchemaVersion="2.0"
+    OriginalSchemaVersion="1.1"
+    ContentReadable="true"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <Manifest>
+    <Identity>
+      <ID>Checkmk.Hosts.CommandShell.MP</ID>
+      <Version>1.0.0.0</Version>
+    </Identity>
+    <Name>Checkmk Hosts via CommandShell</Name>
+
+    <References>
+      <Reference Alias="System">
+        <ID>System.Library</ID>
+        <Version>7.5.8501.1</Version>
+        <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
+      </Reference>
+      <Reference Alias="Windows">
+        <ID>Microsoft.Windows.Server.Library</ID>
+        <Version>10.1.2.2</Version>
+        <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
+      </Reference>
+      <Reference Alias="Health">
+        <ID>System.Health.Library</ID>
+        <Version>7.0.8447.6</Version>
+        <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
+      </Reference>
+    </References>
+  </Manifest>
+
+  <Monitoring>
+    <Rules>
+      <Rule ID="Checkmk.CommandShell.PropertyBag.Rule" Enabled="true" Target="Windows!Microsoft.Windows.Computer" Remotable="true" Priority="Normal" ConfirmDelivery="false">
+        <Category>PerformanceCollection</Category>
+        <DataSources>
+          <DataSource ID="DS" TypeID="System!System.CommandShellDataSource">
+            <IntervalSeconds>300</IntervalSeconds>
+            <ApplicationName>powershell.exe</ApplicationName>
+            <CommandLine>-NoProfile -ExecutionPolicy Bypass -File "C:\Monitoring\Get-CheckmkAllHosts_PropertyBag.ps1"</CommandLine>
+            <TimeoutSeconds>120</TimeoutSeconds>
+            <RequireOutput>true</RequireOutput>
+            <OutputInPropertyBag>true</OutputInPropertyBag>
+            <PropertyBagFormat>Xml</PropertyBagFormat>
+            <WorkingDirectory>%windir%\Temp</WorkingDirectory>
+          </DataSource>
+        </DataSources>
+        <WriteActions>
+          <WriteAction ID="WA" TypeID="Health!System.Health.WriteAction.SimplePropertyBag" />
+        </WriteActions>
+      </Rule>
+    </Rules>
+  </Monitoring>
+
+  <LanguagePacks>
+    <LanguagePack ID="ENU" IsDefault="true">
+      <DisplayStrings>
+        <DisplayString ElementID="Checkmk.Hosts.CommandShell.MP">
+          <Name>Checkmk Hosts via CommandShell</Name>
+          <Description>Führt per CommandShell ein PowerShell-Skript aus und speichert das Ergebnis als PropertyBag in SCOM.</Description>
+        </DisplayString>
+        <DisplayString ElementID="Checkmk.CommandShell.PropertyBag.Rule">
+          <Name>Checkmk CommandShell PropertyBag Rule</Name>
+          <Description>Ruft alle 300 Sekunden euer PowerShell-Skript auf und speichert das Ergebnis als PropertyBag.</Description>
+        </DisplayString>
+      </DisplayStrings>
+    </LanguagePack>
+  </LanguagePacks>
+</ManagementPack>
