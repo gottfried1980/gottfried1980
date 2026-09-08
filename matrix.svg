@@ -8,11 +8,12 @@
       0%, 100% { opacity: 0.3; }
       50% { opacity: 1; }
     }
-    @keyframes temet-glow {
-      0%, 100% { opacity: 0.1; filter: drop-shadow(0px 0px 2px #00ff33); }
-      45%, 55% { opacity: 0.9; filter: drop-shadow(0px 0px 15px #00ff33) drop-shadow(0px 0px 30px #00ff33); }
-      50% { opacity: 1; fill: #fff; filter: drop-shadow(0px 0px 25px #fff); }
-      90%, 95% { opacity: 0.05; }
+    /* Das periodische Aufleuchten wie die Prophezeiung im Film */
+    @keyframes oracle-sign-glow {
+      0%, 100% { opacity: 0.15; filter: drop-shadow(0px 0px 2px #005f0c); }
+      40%, 60% { opacity: 0.95; filter: drop-shadow(0px 0px 12px #00ff33) drop-shadow(0px 0px 25px #008f11); fill: #10ff40; }
+      50% { opacity: 1; fill: #a3ffb4; filter: drop-shadow(0px 0px 20px #00ff33); }
+      85% { opacity: 0.05; }
     }
     .glow {
       font-family: 'Courier New', monospace;
@@ -29,14 +30,16 @@
       filter: drop-shadow(0px 0px 8px #fff);
       animation: pulse-light 0.5s infinite;
     }
+    /* Filmgetreuerer Stil: Dunkleres Grün als Basis mit intensivem grünem Glow */
     .oracle-text {
-      font-family: 'Courier New', monospace;
-      font-weight: 900;
-      font-size: 52px;
-      letter-spacing: 12px;
-      fill: #00ff33;
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-style: italic;
+      font-weight: 800;
+      font-size: 58px;
+      letter-spacing: 6px;
+      fill: #008f11;
       text-anchor: middle;
-      animation: temet-glow 7s infinite ease-in-out;
+      animation: oracle-sign-glow 8s infinite ease-in-out;
     }
   </style>
 
@@ -70,8 +73,8 @@
     <text x="280" y="100" class="glow bright">ﾄ</text>
   </g>
 
-  <!-- ZENTRALER SCHRIFTZUG (Erscheint periodisch im Vordergrund) -->
-  <text x="400" y="315" class="oracle-text">TEMET NOSCE</text>
+  <!-- ORÄKEL-SCHRIFTZUG (Zentriert, wechselt von dunklem Kachelgrün zu intensivem Neongrün-Glow) -->
+  <text x="400" y="320" class="oracle-text">Temet Nosce</text>
 
   <g class="stream" style="animation-duration: 5.0s; animation-delay: 1.2s;">
     <text x="360" y="50" class="glow" opacity="0.4">ﾅ</text>
