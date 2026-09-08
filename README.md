@@ -30,3 +30,10 @@ Cloud-Pflicht, und rechnet sich aus seinem eigenen Ereignisstrom jederzeit neu.
 ## Kontakt
 
 [![E-Mail](https://img.shields.io/badge/E--Mail-kontakt%40gancpt.at-6E6E6E?style=flat&logo=maildotru&logoColor=white)](mailto:kontakt@gancpt.at)
+
+##
+
+<!-- Bindet das ausgelagerte SVG ein, damit GitHub die CSS-Animationen ausführt -->
+<p align="center">
+  <img src="./matrix.svg" alt="Matrix Rain Animation" width="100%" />
+</p>
