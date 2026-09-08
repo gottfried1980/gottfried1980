@@ -14,7 +14,7 @@ Cloud-Pflicht, und rechnet sich aus seinem eigenen Ereignisstrom jederzeit neu.
 ## Womit ich baue
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Node.js](https://shields.io)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20%2F%20PGlite-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
@@ -33,7 +33,6 @@ Cloud-Pflicht, und rechnet sich aus seinem eigenen Ereignisstrom jederzeit neu.
 
 ##
 
-<!-- Bindet das ausgelagerte SVG ein, damit GitHub die CSS-Animationen ausführt -->
 <p align="center">
-  <img src="./matrix.svg" alt="Matrix Rain Animation" width="100%" />
+  <img src="./matrix.svg" alt="Matrix Rain - Temet Nosce" width="100%" />
 </p>
