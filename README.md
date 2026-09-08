@@ -1,7 +1,7 @@
 # Servus, ich bin Gottfried 👋
 
 📍 Ich baue Software in Österreich — zurzeit ein Produkt, das seine eigene Entstehung beweisen kann.
-👉 [www.gancpt.at](https://gancpt.at)
+👉 [www.gancpt.at](https://www.gancpt.at)
 
 ## Woran ich arbeite
 
@@ -13,12 +13,12 @@ Cloud-Pflicht, und rechnet sich aus seinem eigenen Ereignisstrom jederzeit neu.
 
 ## Womit ich baue
 
-![TypeScript](https://shields.io)
-![Node.js](https://shields.io)
-![PostgreSQL](https://shields.io)
-![Vitest](https://shields.io)
-![GitHub Actions](https://shields.io)
-![Vercel](https://shields.io)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20%2F%20PGlite-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
 ## Über mich
 
@@ -29,10 +29,11 @@ Cloud-Pflicht, und rechnet sich aus seinem eigenen Ereignisstrom jederzeit neu.
 
 ## Kontakt
 
-[![E-Mail](https://shields.io)](mailto:kontakt@gancpt.at)
+[![E-Mail](https://img.shields.io/badge/E--Mail-kontakt%40gancpt.at-6E6E6E?style=flat&logo=maildotru&logoColor=white)](mailto:kontakt@gancpt.at)
 
 ##
 
+<!-- Bindet das ausgelagerte SVG ein, damit GitHub die CSS-Animationen ausführt -->
 <p align="center">
-  <img src="https://githubusercontent.com" alt="Matrix Rain - Temet Nosce" width="100%" />
+  <img src="./matrix.svg" alt="Matrix Rain Animation" width="100%" />
 </p>
