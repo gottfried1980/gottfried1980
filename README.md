@@ -42,7 +42,10 @@ Cloud-Pflicht, und rechnet sich aus seinem eigenen Ereignisstrom jederzeit neu.
   <img data-importer="profile-views" src="https://visitor-badge.laobi.icu/badge?page_id=gottfried1980.gottfried1980&"  />
 </div>
 
-[![Buy Me A Coffee](https://shields.io)](https://buymeacoffee.com)
-
+<p align="center">
+  <a href="https://buymeacoffee.com" target="_blank">
+    <img src="https://buymeacoffee.com" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
+  </a>
+</p>
 
 ###
