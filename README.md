@@ -42,6 +42,10 @@ Cloud-Pflicht, und rechnet sich aus seinem eigenen Ereignisstrom jederzeit neu.
   <img data-importer="profile-views" src="https://visitor-badge.laobi.icu/badge?page_id=gottfried1980.gottfried1980&"  />
 </div>
 
-<p align="center"><a href="https://buymeacoffee.com/gottfried1980" target="_blank" img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important; width: 217px !important;"></a></p>
+<p align="center">
+  <a href="https://www.buymeacoffee.com/gottfried1980" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important; width: 217px !important;">
+  </a>
+</p>
 
 ###
