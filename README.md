@@ -38,6 +38,8 @@ Cloud-Pflicht, und rechnet sich aus seinem eigenen Ereignisstrom jederzeit neu.
   <img src="./matrix.svg" alt="Matrix Rain Animation" width="100%" />
 </p>
 
+<br><br>
+
 <div data-importer="profile-views" align="center">
   <img data-importer="profile-views" src="https://visitor-badge.laobi.icu/badge?page_id=gottfried1980.gottfried1980&"  />
 </div>
